@@ -15,14 +15,14 @@ A Jellyfin plugin that scrobbles your anime watches to Anilist for easy automati
 
 ## Install
 ### Repository
-1. Add the repository URL to Jellyfin: https://raw.githubusercontent.com/Fallenbagel/AnilistSync/master/manifest.json
+1. Add the repository URL to Jellyfin: https://raw.githubusercontent.com/enrell/AnilistSync/master/manifest.json
 2. Install AnilistSync from the plugin catalog
 3. Install Anilist plugin and activate the metadata provider in the libraries (and ensure it is below your actual metadata provider/low in hierarchy or your metadata will get replaced)
 4. Refresh metadata with Search for missing metadata to add in anilist ID or manually add it in using the metadata manager (because if this ID is missing this scrobbler will not work!
 5. Setup Ani-Sync by authenticating and configure it to your liking!
 
 ### Github Release
-1. Download the `.zip` release from [here](https://github.com/Fallenbagel/AnilistSync/releases/latest)
+1. Download the `.zip` release from [here](https://github.com/enrell/AnilistSync/releases/latest)
 2. Extract the contents into a folder in the `plugins` folder of your Jellyfin install directory
 3. Install Anilist plugin and activate the metadata provider in the libraries (and ensure it is below your actual metadata provider/low in hierarchy or your metadata will get replaced)
 4. Refresh metadata with **Search for missing metadata** to add in anilist ID or manually add it in using the metadata manager (because if this ID is missing this scrobbler will not work!
